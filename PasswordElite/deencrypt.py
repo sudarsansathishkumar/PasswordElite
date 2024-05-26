@@ -364,10 +364,3 @@ def encode1(org):
         else:
             encoded += chr(ord(dec[i]) - lengt//2)
     return encoded
-
-# a = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890+-/*@₹$^%#!'~& _"
-# a = "zombie@1234.gmail.com"
-# a1 = ""
-# print(encode1(a))
-# print(decode1(encode1(a)))
-# print(len(a), "\t", len(decode1(encode1(a))), "\t", len(encode1(a)))
