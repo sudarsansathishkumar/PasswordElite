@@ -219,6 +219,3 @@ def decode(org):
         else:
             decoded+=org[i]
     return decoded
-
-a = "abcdefghijklmnopqrstuvwxyz"
-print(decode("qwer"))
